@@ -558,6 +558,10 @@ footer .tech-stack {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .bg-shape {
+        display: none;
+    }
+    
     .hero-content {
         flex-direction: column-reverse;
         text-align: center;
