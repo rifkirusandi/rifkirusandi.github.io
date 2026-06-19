@@ -36,6 +36,35 @@ body {
     background-attachment: fixed;
 }
 
+/* Background Vector Shapes */
+.bg-shape {
+    position: fixed;
+    z-index: -1;
+    color: var(--primary);
+    opacity: 0.04;
+    pointer-events: none;
+}
+.shape-1 {
+    top: 15%;
+    right: -5%;
+    width: 400px;
+    height: 400px;
+    transform: rotate(15deg);
+}
+.shape-2 {
+    bottom: 10%;
+    left: -5%;
+    width: 350px;
+    height: 350px;
+    transform: rotate(-10deg);
+}
+.shape-3 {
+    top: 60%;
+    right: 15%;
+    width: 200px;
+    height: 200px;
+}
+
 /* Base Card Style */
 .glass-card {
     background: var(--bg-card);
